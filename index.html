@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eating W&T</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="header__top">
+            <div class="grid wide">
+                <h3>VietNam Food</h3>
+            </div>
+        </div>
+        <div id="header">
+            <div class="grid wide">
+                <div class="row flex space-between align-center">
+                    <div class="header__heading">
+                        <h1>Eating W&T .</h1>
+                    </div>
+                    <div class="header__heading-img">
+                        <img src="./assets/img/header.jpg" alt="" height="90px">
+                    </div>
+                    <div class="header__btn">
+                        <input type="text" class="header__input" value="" id="search-input">
+                        <button class="header__btn-button" id="search-btn">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header__navbar">
+            <div class="grid wide">
+                <div class="row nav-bar">
+                    <ul id="nav" class="flex">
+                        <li><a href="/restAPI/index.html">Home</a></li>
+                        <li><a href="/">Recipes</a></li>
+                        <li><a href="/">Map</a></li>
+                        <li><a href="/">Contact</a></li>
+                        <li>
+                            <a href="./page-create/index.html">More <i class="arrow-down ti-angle-down"></i></a>
+                        </li>
+                </div>
+            </div>
+        </div>
+        <div id="content__img">
+            <div class="content__service">
+                <h1 class="content__heading">Billion VietNam Food</h1>
+                <h2 class="content__subheading">Service available 24/24 and free for coderschool</h2>
+            </div>
+        </div>
+        <div id="content">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-8">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and
+                            scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                            the leap
+                            into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                        <br>
+                        <p>
+                            It was popularised in the 1960s with the
+                            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                            publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+
+                        <ul class="content__api">
+
+                        </ul>
+                    </div>
+                    <div class="col l-4">
+                        <div class="content__list">
+                            <ol class="content__list-popular">
+                                <li class="content__list-popular"></li>
+                            </ol>
+                        </div>
+                        <div class="content__right">
+                            <img src="./assets/img/inforgraphics.jpg" alt="" width="350px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="grid wide">
+                <div class="row footer__container">
+                    <h1>Create Food</h1>
+                    <div class="footer__create">
+                        <label for="">Title</label>
+                        <input type="text" name="title">
+                    </div>
+                    <div class="footer__create">
+                        <label for="">ImgUrl</label>
+                        <input type="text" name="imgUrl">
+                    </div>
+                    <div class="footer__create">
+                        <label for="">Description</label>
+                        <textarea type="text" name="description"></textarea>
+                    </div>
+                    <div class="footer__btn">
+                        <button id="create">Create</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
