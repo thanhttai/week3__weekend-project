@@ -17,10 +17,14 @@ This is a font-end project utilizing json-server and postman.
     /- index.html
     /- index.js
 ```
+
 ## UI Mockup
 
 ![Layout](assets/img/layout.png)
 
+## This is our website 
+
+![website](assets/img/website.PNG)
 ## Feature Overviews
 -Landing page showing list of food at VietNamese.
 -At landing page, you can create, delete and update famous vietnamese food if you want.
