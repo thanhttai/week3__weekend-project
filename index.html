@@ -36,7 +36,7 @@
                         <h1>Eating W&T .</h1>
                     </div>
                     <div class="header__heading-img">
-                        <img src="./assets/img/logo3.png" alt="" width="50px">
+                        <img src="./assets/img/ea.png" alt="" width="50px">
                     </div>
                     <div class="header__btn">
                         <input type="text" class="header__input" value="" id="search-input">
@@ -106,22 +106,53 @@
         </div>
         <div id="footer">
             <div class="grid wide">
-                <div class="row footer__container">
-                    <h1>Create Food</h1>
-                    <div class="footer__create">
-                        <label for="">Title</label>
-                        <input type="text" name="title">
+                <div class="row">
+                    <div class="col l-6 m-12 c12 footer__container">
+                        <h1>Create Food</h1>
+                        <div class="footer__create">
+                            <label for="">Title</label>
+                            <input type="text" name="title">
+                        </div>
+                        <div class="footer__create">
+                            <label for="">ImgUrl</label>
+                            <input type="text" name="imgUrl">
+                        </div>
+                        <div class="footer__create">
+                            <label for="">Description</label>
+                            <textarea type="text" name="description"></textarea>
+                        </div>
+                        <div class="footer__btn">
+                            <button id="create">Create</button>
+                        </div>
                     </div>
-                    <div class="footer__create">
-                        <label for="">ImgUrl</label>
-                        <input type="text" name="imgUrl">
-                    </div>
-                    <div class="footer__create">
-                        <label for="">Description</label>
-                        <textarea type="text" name="description"></textarea>
-                    </div>
-                    <div class="footer__btn">
-                        <button id="create">Create</button>
+                    <div class="col l-6 c-12 m-12 footer__container-right">
+                        <div class="footer__learn-more">
+                            <h3>Learn More</h3>
+                            <div class="footer__sub-learn">
+                                Our Cooks
+                            </div>
+                            <div class="footer__sub-learn">
+                                See Our Features
+                            </div>
+                            <div class="footer__sub-learn">
+                                FAQ
+                            </div>
+                            <div class="footer__sub-learn">
+                                Tools for Saving
+                            </div>
+                            <div class="footer__sub-learn">
+                                Send Us Feedback
+                            </div>
+                        </div>
+                        <div class="footer__Shop">
+                            <h3>Shop</h3>
+                            <div class="footer__sub-learn">
+                                Gift Subscription
+                            </div>
+                            <div class="footer__sub-learn">
+                                Merchandise
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -187,12 +218,12 @@
         const headerShow = document.querySelector('.js-header__after-height');
         const headerHideTwo = document.querySelector('.js-header__after-height-two')
         function myFunction() {
-            if (window.pageYOffset > bottom + 220) {
+            if (window.pageYOffset > bottom + 180) {
                 bottomShow.classList.add('fixed')
             } else {
                 bottomShow.classList.remove('fixed')
             }
-            if (window.pageYOffset > bottom + 1500) {
+            if (window.pageYOffset > bottom + 1460) {
                 bottomShow.classList.remove('fixed')
                 bottomShow.style.animation = "FadeIn ease 2s"
             }

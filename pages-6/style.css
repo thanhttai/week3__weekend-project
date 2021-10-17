@@ -85,7 +85,6 @@ input.header__input-input {
 .authencation i{
     padding: 4px 4px;
     border-radius: 50%;
-    background: #ccc;
     margin-left: 10px;
 }
 
@@ -93,7 +92,7 @@ input.header__input-input {
     padding: 6px 6px;
     width: 100px;
     border-radius: 30px;
-    background: #ccc;
+    border: 1px solid;
 }
 .content{
     margin-top:50px
