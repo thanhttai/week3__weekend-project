@@ -2,60 +2,80 @@
   "foods": [
     {
       "id": 1,
+      "rating": 4.9,
+      "totalRating": 5,
       "title": "Pho",
       "description": "Pho is essentially Vietnam’s signature dish, comprising rice noodles in a flavourful soup with meat and various greens, plus a side of nuoc cham (fermented fish) or chilli sauce. A basic bowl contains tai (beef slices), bo vien (beef meatballs) or nam (beef flank), topped with bean sprouts, lime wedges, and fresh herbs such as basil, mint, cilantro, and onions. Depending on the restaurant or roadside stall, you can also opt for more exotic ingredients such as gan (beef tendon), sach (thinly-sliced pig stomach), and ve don (flank with cartilage). Typically eaten for breakfast, pho is priced between VND 20,000 and VND 30,000 at a local restaurant or street market in Vietnam.",
       "imgUrl": "https://noiphosaigon.com/wp-content/uploads/2021/02/pho-bap-bo-truyen-thong.jpg"
     },
     {
       "id": 2,
+      "rating": 4.8,
+      "totalRating": 5,
       "title": "Banh Mi",
       "description": "Banh mi is a unique French-Vietnamese sandwich that’s great for when you’re in need of a quick meal. Priced between VND 10,000 and VND 15,000, it consists of a toasted baguette sandwich, pickled vegetables, pate, butter, soy sauce, cilantro, chillies, and hot peppers. Most banh mi sellers also offer a wide range of meat fillings, including heo quay (roasted pork belly), trung op la (fried egg), thit nuong (grilled pork loin), cha ca (fried fish with turmeric and dill), cha lua (boiled sausages), xa xiu (Chinese barbecued pork), and thit ga (poached chicken).",
-      "imgUrl": "https://vcdn1-dulich.vnecdn.net/2020/03/04/7174177733-6c0af1a0b2-b-4778-1583317457.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=W5Ll2-T9398seyb0orXqFA"
+      "imgUrl": "https://media.thethaovanhoa.vn/Upload/tyTrfgkgEUQwPYuvZ4Kn1g/files/2020/03/3203/banh-mi-viet-nam-ngon.jpg"
     },
     {
       "id": 3,
+      "rating": 4.7,
+      "totalRating": 5,
       "title": "Banh Xeo (Crispy Pancake)",
       "description": "Similar to a crepe or pancake, banh xeo is made of rice flour, coconut milk, and turmeric, which you can fill it with vermicelli noodles, chicken, pork or beef slices, shrimps, sliced onions, beansprouts, and mushrooms. Most roadside stalls, local markets, and restaurants sell a platter of banh xeo for about VND 15,000 to VND 25,000, which usually comes with a side of fresh lettuce or rice papers. Eat like a local by wrapping your banh xeo in mustard leaf, lettuce leaves or rice papers together with nem lui (lemongrass pork skewers), mint leaves, basil, before dipping in fermented peanut sauce.",
-      "imgUrl": "https://lh3.googleusercontent.com/proxy/8l1_UiHMYuIPWXkjmaClgKvFMTFRJpKJ-EL0tIHue6ZlXJm3myqWZJasOCnAG5Z0ZgNlJGqU2qQxPt4EVj1g1IjfPNLgXvJ2sTz33gAzXQOaZ2N-yGICTR1bEQAxbvOI4P633g"
+      "imgUrl": "https://cdn.tgdd.vn/Files/2020/05/20/1256908/troi-mua-thu-lam-banh-xeo-kieu-mien-bac-gion-ngon-it-dau-mo-202005201034115966.jpg"
     },
     {
       "id": 4,
+      "rating": 4.6,
+      "totalRating": 5,
       "title": "Goi Cuon (Vietnamese Fresh Spring Rolls)",
       "description": "Goi cuon (Vietnamese fresh spring rolls) consist of thin vermicelli noodles, pork slices, shrimp, basil, and lettuce, all tightly wrapped in translucent banh trang (rice papers). Due to its subtle flavour, goi cuon is usually dipped into ground chillies and a hoisin-based dipping sauce topped with crushed peanuts. This popular snack or appetiser is also a healthier alternative to cha gio, which is a deep-fried egg roll made with a combination of mung bean noodles, minced pork, and various spices.",
       "imgUrl": "https://vcdn-giadinh.vnecdn.net/2020/08/28/anh-8-7374-1598600011.jpg"
     },
     {
       "id": 5,
+      "rating": 4.7,
+      "totalRating": 5,
       "title": "Mi Quang (Vietnamese Turmeric Noodles)",
       "description": "Mi quang may be available at most restaurants in Vietnam, but it actually originates from Da Nang. Easily distinguished by its yellow-coloured rice noodles, this dish is a hearty mix of bone broth seasoned with fish sauce, black pepper, shallot, and garlic, as well as meaty ingredients such as river shrimp, boiled quails eggs, and roast pork. As with most Vietnamese dishes, mi quang also comes with a variety of herbs, including basil, peanuts, coriander, lettuce, sliced banana flowers, and sesame rice crackers.",
       "imgUrl": "https://cdn.tgdd.vn/Files/2020/05/04/1253394/cach-nau-mi-quang-chay-thom-ngon-chuan-vi-mien-tru-13.jpg"
     },
     {
       "id": 6,
+      "rating": 4.8,
+      "totalRating": 5,
       "title": "Bun Thit Nuong (Vermicelli Noodles With Grilled Pork)",
       "description": "Bun thit nuong comprises thin vermicelli rice noodles, chopped lettuce, sliced cucumber, bean sprouts, pickled daikon, basil, chopped peanuts, and mint, topped with grilled pork shoulder. Unlike most noodle dishes, it doesn’t come in a soup or broth, but with a side of nuoc cham sauce for diners to mix into for a flavourful ensemble. While bun thit nuong is quite filling on its own, you can also try another variation called bun thit nuong cha gio, which is topped with sliced cha gio (deep-fried Vietnamese spring rolls).",
       "imgUrl": "https://image.thanhnien.vn/768/uploaded/tamnm/2021_06_09/thumb-3-quan-thit-nuong-16232248293732107826609_ykog.jpg"
     },
     {
       "id": 7,
+      "rating": 4.5,
+      "totalRating": 5,
       "title": "Com Tam (Broken Rice)",
       "description": "Com tam literally translate to ‘broken rice’ in Vietnamese, and is traditionally served with fried egg, diced green onions, and a variety of meats. While it’s a popular choice for breakfast or lunch, it can be enjoyed any time of the day as it is relatively inexpensive, with street markets and roadside food stalls selling for about VND 20,000 per bowl. Toppings options include suon nuong (barbecued pork chop), bi (shredded pork skin), and cha trung (steamed pork and egg patty). Com tam also comes with a side of pickled vegetables, cucumber slices, and nuoc cham Vietnamese dipping sauce.",
       "imgUrl": "https://diendanamthuc.com.vn/upload/001-Diendamamthuc.com.vn/5-Am-thuc-bon-phuong/Com-tam-duoc-ra-doi-tai-Viet-Nam-nhu-the-nao/Com-tam-duoc-ra-doi-tai-Viet-Nam-nhu-the-nao-1.jpg"
     },
     {
       "id": 8,
+      "rating": 4.7,
+      "totalRating": 5,
       "title": "Banh Cuon (Rolled Cake)",
       "description": "Also known as rolled cake, banh cuon is great for when you’re feeling peckish whilst sightseeing in Vietnam. A combination of ground meat (chicken, shrimp, or pork), minced wood ear mushroom, onions, Vietnamese ham (cha lua), steamed beansprouts, and cucumbers that’s wrapped in a steamed rice flour sheet, its overall taste is surprisingly mild despite the savoury ingredients. For added flavour, you can dip the banh cuon into nuoc cham sauce. Due to its popularity amongst travellers, you can easily spot plenty of roadside vendors selling banh cuon close to tourist sights and nightlife districts.",
       "imgUrl": "http://kinhdoanhnhahang.vn/wp-content/uploads/2015/01/lap-ke-hoach-kinh-doanh-quan-banh-cuon-11.jpg"
     },
     {
       "id": 9,
+      "rating": 4.9,
+      "totalRating": 5,
       "title": "Xoi Xeo (Sweet Sticky Rice)",
       "description": "Xoi xeo is a sweet-savoury Vietnamese snack that’s typically topped with green mung bean paste, soy sauce, and dried shallots. For a more substantial meal, many restaurants now offer a variety of ingredients such as pate, boiled chicken, cha lua (Vietnamese ham), marinated pork belly, or preserved eggs. A basic bowl typically costs VND 15,000, while add-ins range between VND 15,000 and VND 30,000. Xoi xeo can also be enjoyed for dessert, which consists of dried coconut shavings, roasted sesame seeds, and crystallised sugar.",
       "imgUrl": "https://anh.24h.com.vn/upload/3-2019/images/2019-07-19/Huong-dan-cach-nau-xoi-xeo-bang-noi-com-dien-de-dang-ma-thom-ngon-1-1563526386-521-width600height450.jpg"
     },
     {
       "id": 10,
+      "rating": 4.7,
+      "totalRating": 5,
       "title": "Ca Kho To (Caramelised Fish in Clay Pot)",
       "description": "Ca kho to is a must try if you’re a fan of fish, consisting of a catfish fillet that’s braised and served in a clay pot. Mostly available in cities in southern Vietnam, particularly Ho Chi Minh, this dish is prepared by slicing a whole catfish into fillets before caramelising it in a thick gravy made with a combination of soy sauce, fish sauce, sugar, shallots, garlic, and various spices and seasonings. Ca kho to is known for its intense sweet-salty flavour, so this dish is always served with a plate of white rice and fresh greens.",
       "imgUrl": "https://anh.eva.vn/upload/3-2018/images/2018-08-04/ca-loc-kho-to-dam-da-an-bao-nhieu-com-cung-het-ca-loc-kho-1533366810-308-width772height433.jpg"

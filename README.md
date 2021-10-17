@@ -26,8 +26,9 @@ This is a font-end project utilizing json-server and postman.
 
 ![website](assets/img/website.PNG)
 ## Feature Overviews
--Landing page showing list of food at VietNamese.
--At landing page, you can create, delete and update famous vietnamese food if you want.
+- Landing page showing list of food at VietNamese.
+
+- At landing page, you can create, delete and update famous vietnamese food if you want.
 ## End Point
 
 - /foods :for getting 10 or more foods.

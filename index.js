@@ -6,7 +6,6 @@ let url = "http://localhost:3000/foods";
 
 
 
-
 function start() {
     getFoods(renderFoods);
     handleCreateFood()
@@ -47,12 +46,15 @@ function handleDeleteFood(id) {
         })
 }
 //render food
+function renderMostFoods(foods) {
+
+}
 
 function renderFoods(foods) {
 
-
+    const mostFood = document.querySelector('.content__list-food')
     const listFood = document.querySelector('.content__api');
-    let htmls = foods.map(food => {
+    let htmls = foods.map((food, index) => {
         return `
             <li class="content__item food-${food.id}">
                 <div class="content__heading-text flex">
@@ -60,13 +62,22 @@ function renderFoods(foods) {
                     <h2 class="content__item-heading">${food.title}</h2>
                     <button onclick="handleDeleteFood(${food.id})" class="btn-delete">&times;</button>
                 </div>
-                <img src="${food.imgUrl}"
-                    alt="${food.title}" class="content__item-img">
+                <a href="pages-${index}/index.html"><img src="${food.imgUrl}"
+                alt="${food.title}" class="content__item-img"></a>
                 <p class="content__item-desc">${food.description}</p>
             </li>
         `;
     });
     listFood.innerHTML = htmls.join("")
+    let rating = foods.map(food => {
+        return `
+        <li class="content__most-item">${food.title} <span>${food.rating}/ <div class="smaller-span">${food.totalRating}</div></span>
+        </li>
+        `;
+    });
+    mostFood.innerHTML = rating.join("")
+
+
 }
 
 function handleCreateFood() {
@@ -153,3 +164,22 @@ const handleSearch = (e) => {
 };
 
 searchBtn.addEventListener("click", handleSearch);
+
+// const boxes = document.querySelectorAll('.content__item');
+// window.addEventListener('scroll', checkBoxes);
+// checkBoxes()
+// function checkBoxes() {
+//     const triggerBottom = window.innerHeight / 5 * 4;
+
+//     boxes.forEach(box => {
+//         const boxTop = box.getBoundingClientRect().top
+
+//         if (boxTop < triggerBottom) {
+//             box.classClist.add('show')
+//         } else {
+//             box.classClist.remove('show')
+
+//         }
+//     })
+
+// }
